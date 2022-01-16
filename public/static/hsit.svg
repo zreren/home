@@ -1,0 +1,22 @@
+<svg width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+    <g>
+        <title>HSIT</title>
+        <!-- H -->
+        <rect height="200" width="50"  y="100" x="100" fill="#000000" />
+        <rect height="10"  width="75"  y="190" x="100" fill="#000000" />
+        <rect height="200" width="50"  y="100" x="200" fill="#888888" />
+        <!-- S -->
+        <rect height="100" width="50"  y="100" x="275" fill="#ff0000" />
+        <rect height="10"  width="100" y="100" x="275" fill="#ff0000" />
+        <rect height="10"  width="100" y="290" x="325" fill="#000000" />
+        <rect height="100" width="50"  y="200" x="375" fill="#000000" />
+        <!-- i -->
+        <rect height="100" width="50"  y="200" x="450" fill="#888888" />
+        <rect height="50"  width="50"  y="100" x="450" fill="#000000" />
+        <!-- T -->
+        <rect height="200" width="50"  y="100" x="525" fill="#0000ff" />
+        <rect height="10"  width="150" y="100" x="525" fill="#0000ff" />
+        <!-- . -->
+        <rect height="50"  width="50"  y="250" x="625" fill="#000000" />
+    </g>
+</svg>
