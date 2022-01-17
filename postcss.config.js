@@ -1,12 +1,12 @@
-const plugins ={
+let plugins = {
   tailwindcss: {},
-  autoprefixer: {}
-};
+  autoprefixer: {},
+}
 
 if(process.env.NODE_ENV === 'production') {
   plugins.cssnano = {};
 }
 
 module.exports = {
-  plugins: plugins
+  plugins:plugins
 };

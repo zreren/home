@@ -1,16 +1,10 @@
 module.exports = {
-  purge: {
-    // Specify the paths to all of the template files in your project
-    content: [
-      './src/components/**/*.res',
-      './src/layouts/**/*.res',
-      './src/*.res',
-    ],
-    options: {
-      safelist: ["html", "body"],
-    }
-  },
-  darkMode: false, // or 'media' or 'class'
+  content: [
+    './src/pages/**/*.res',
+    './src/components/**/*.res',
+    './src/layouts/**/*.res',
+    './src/*.res',
+  ],
   theme: {
     extend: {
     },
@@ -30,12 +24,14 @@ module.exports = {
       '6xl': "4rem"
     },
     /* We override the default font-families with our own default prefs  */
-    fontFamily: {
-      'sans':['-apple-system', 'BlinkMacSystemFont', 'Helvetica Neue', 'Arial', 'sans-serif'],
-      'serif': ['Georgia', '-apple-system', 'BlinkMacSystemFont', 'Helvetica Neue', 'Arial', 'sans-serif'], 
-      'mono': [ 'Menlo', 'Monaco', 'Consolas', 'Roboto Mono', 'SFMono-Regular', 'Segoe UI', 'Courier', 'monospace']
-    },
+    // fontFamily: {
+    //   'sans':['-apple-system', 'BlinkMacSystemFont', 'Helvetica Neue', 'Arial', 'sans-serif'],
+    //   'serif': ['Georgia', '-apple-system', 'BlinkMacSystemFont', 'Helvetica Neue', 'Arial', 'sans-serif'], 
+    //   'mono': [ 'Menlo', 'Monaco', 'Consolas', 'Roboto Mono', 'SFMono-Regular', 'Segoe UI', 'Courier', 'monospace']
+    // },
   },
+  darkMode: 'media', // or 'media' or 'class'
+  
   variants: {
     width: ['responsive']
   },

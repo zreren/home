@@ -9,7 +9,7 @@ function MainLayout$Navigation(Props) {
             }, React.createElement(Link, {
                   href: "/",
                   children: React.createElement("a", {
-                        className: "flex items-center w-1/2"
+                        className: "flex items-center w-1/2 transition duration-700 ease-in-out hover:scale-110"
                       }, React.createElement("img", {
                             className: "w-28",
                             src: "/static/hsit.svg"
@@ -23,12 +23,12 @@ function MainLayout$Navigation(Props) {
                     }, React.createElement(Link, {
                           href: "/",
                           children: React.createElement("a", {
-                                className: "px-3"
+                                className: "px-3 hover:text-gray-500"
                               }, "Home")
                         }), React.createElement(Link, {
                           href: "/examples",
                           children: React.createElement("a", {
-                                className: "px-3"
+                                className: "px-3 hover:text-gray-500"
                               }, "Examples")
                         })), React.createElement("div", {
                       className: "inline md:hidden"
@@ -37,10 +37,122 @@ function MainLayout$Navigation(Props) {
 
 function MainLayout$Footer(Props) {
   return React.createElement("nav", {
-              className: "border-t border-gray-400 bg-gray-300"
+              className: "border-t border-gray-800 bg-gray-600"
             }, React.createElement("div", {
                   className: "h-20"
-                }));
+                }), React.createElement("div", {
+                  className: "grid grid-cols-3 p-10"
+                }, React.createElement("div", undefined, React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text-xl block pb-10"
+                              }, "关于我们")
+                        }), React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text block pb-5"
+                              }, "关于我们")
+                        }), React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text block pb-5"
+                              }, "关于我们")
+                        }), React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text block pb-5"
+                              }, "关于我们")
+                        }), React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text block pb-5"
+                              }, "关于我们")
+                        }), React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text block pb-5"
+                              }, "关于我们")
+                        })), React.createElement("div", undefined, React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text-xl block pb-10"
+                              }, "资源中心")
+                        }), React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text block pb-5"
+                              }, "资源地址")
+                        }), React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text block pb-5"
+                              }, "资源地址")
+                        }), React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text block pb-5"
+                              }, "资源地址")
+                        }), React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text block pb-5"
+                              }, "资源地址")
+                        }), React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text block pb-5"
+                              }, "资源地址")
+                        })), React.createElement("div", undefined, React.createElement(Link, {
+                          href: "/",
+                          children: React.createElement("a", {
+                                className: "text-white hover:text-gray-200 text-xl block pb-10"
+                              }, "联系我们")
+                        }), React.createElement("div", {
+                          className: "pb-4"
+                        }, React.createElement("h3", {
+                              className: "text-gray-200 pb-2"
+                            }, "联系方式1"), React.createElement(Link, {
+                              href: "mailto:it@hist.edu.rs",
+                              children: React.createElement("a", {
+                                    className: "text-white hover:text-gray-200 text block pb-1 pl-2"
+                                  }, "邮箱地址")
+                            }), React.createElement(Link, {
+                              href: "mailto:it@hist.edu.rs",
+                              children: React.createElement("a", {
+                                    className: "text-white hover:text-gray-200 text block pb-1 pl-2"
+                                  }, "邮箱地址")
+                            }), React.createElement(Link, {
+                              href: "mailto:it@hist.edu.rs",
+                              children: React.createElement("a", {
+                                    className: "text-white hover:text-gray-200 text block pb-1 pl-2"
+                                  }, "邮箱地址")
+                            })), React.createElement("div", undefined, React.createElement("h3", {
+                              className: "text-gray-200 pb-2"
+                            }, "联系方式1"), React.createElement(Link, {
+                              href: "mailto:it@hist.edu.rs",
+                              children: React.createElement("a", {
+                                    className: "text-white hover:text-gray-200 text block pb-1 pl-2"
+                                  }, "邮箱地址")
+                            }), React.createElement(Link, {
+                              href: "mailto:it@hist.edu.rs",
+                              children: React.createElement("a", {
+                                    className: "text-white hover:text-gray-200 text block pb-1 pl-2"
+                                  }, "邮箱地址")
+                            }), React.createElement(Link, {
+                              href: "mailto:it@hist.edu.rs",
+                              children: React.createElement("a", {
+                                    className: "text-white hover:text-gray-200 text block pb-1 pl-2"
+                                  }, "邮箱地址")
+                            })))), React.createElement("div", {
+                  className: "px-10 pb-20"
+                }, React.createElement(Link, {
+                      href: "/",
+                      children: React.createElement("a", {
+                            className: "text-white hover:text-gray-200 text-xl block pb-10"
+                          }, "办学理念")
+                    }), React.createElement("p", {
+                      className: "text-white hover:text-gray-200"
+                    }, "blablablbabka")));
 }
 
 function MainLayout(Props) {
@@ -54,7 +166,7 @@ function MainLayout(Props) {
             }, React.createElement("div", {
                   className: " max-w-6xl w-full lg:w-5/6 text-gray-900 font-base"
                 }, React.createElement(MainLayout$Navigation, {}), React.createElement("main", {
-                      className: "mt-4 mx-4 min-h-screen"
+                      className: "mt-4  min-h-screen"
                     }, children), React.createElement(MainLayout$Footer, {})));
 }
 

@@ -8,7 +8,7 @@ function PostCard(Props) {
   var info = Props.info;
   var children = Props.children;
   return React.createElement("div", {
-              className: "border bg-white rounded-md p-3 m-3 drop-shadow-md"
+              className: "border bg-white rounded-md p-3 m-3 drop-shadow-sm hover:drop-shadow-xl transition duration-700 ease-in-out hover:scale-110"
             }, React.createElement("img", {
                   className: "border-b border-gray-400",
                   src: icon
@@ -17,7 +17,7 @@ function PostCard(Props) {
                 }, title), React.createElement("h3", {
                   className: "text-gray-400 m-3"
                 }, info), React.createElement("div", {
-                  className: " rounded-xl p-3 w-full"
+                  className: " rounded-xl p-3 w-full place-items-center "
                 }, children));
 }
 
