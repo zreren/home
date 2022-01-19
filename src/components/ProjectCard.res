@@ -1,5 +1,5 @@
 @react.component
-let make = (~img:string, ~title:string, ~info:string, ) =>
+let make = (~img:string, ~title:string, ~info:string, ~author:string) =>
 <div className="shadow-md">
 <div className="">
     <img  src={img} className="object-cover h-40 w-96"  />
@@ -8,7 +8,7 @@ let make = (~img:string, ~title:string, ~info:string, ) =>
 <div>
     <div className="flex flex-row items-center  flex-shrink-0 h-10 w-10  ml-2.5 mt-2.5">
         <img className="h-10 w-10 rounded-full " src={img} alt="" />
-        <p className="ml-2.5">{React.string("lengmon")}</p>
+        <p className="ml-2.5">{React.string(author)}</p>
     </div>
 </div>
 

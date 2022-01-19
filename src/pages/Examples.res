@@ -21,16 +21,19 @@ let default = (props: props) =>{
       img="/React.png"
       title="Progarmming for React"
       info="It is thought that the best course in the world"
+      author="@LemonHX"
     ></ProjectCard>
     <ProjectCard
       img="/static/hsit.svg"
       title="DAXUE"
       info="hhaa"
+      author="@LemonHX"
     ></ProjectCard>
     <ProjectCard
       img="/static/hsit.svg"
       title="DAXUE"
       info="hhaa"
+      author="@LemonHX"
     ></ProjectCard>
   </div>
   
